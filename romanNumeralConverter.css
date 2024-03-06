@@ -1,0 +1,53 @@
+body {
+    background-color: #003300;
+    color: gold;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    white-space: nowrap;
+  }
+  
+  #number {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%; /* Adjusted width for better spacing */
+    margin-bottom: 15px; /* Increased margin between input and button */
+  }
+  
+  #convert-btn {
+    background-color: gold;
+    color: #003300;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+  }
+  
+  #convert-btn:hover {
+    background-color: #ffd700; /* Hover color for button */
+  }
+  
+  #output {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  span {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
